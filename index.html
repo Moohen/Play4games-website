@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<!--
+    Created on : 2019-01-27, 16:32:30
+    Author     : Moohen
+-->
+<html>
+    <head>
+        <title>Play4Games Official for Play4Fun</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css?family=Bungee|Open+Sans:300,400,600,700,800|Roboto:300,400,500,700,900&amp;subset=latin-ext" rel="stylesheet">
+        <link rel="icon" sizes="192x192" href="images/android-chrome-192x192.png">
+        <link rel="apple-touch-icon-precomposed" sizes="180x180" href="images/apple-touch-icon.png">
+        <link rel="stylesheet" media="(max-width: 850px)" href="css/smallscreen.css">
+        <link rel="stylesheet" media="(min-width: 851px)" href="css/widescreen.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="header">
+                <a href="index.html" class="logo-link">
+                    <img src="images/logo.png" alt="logo" class="logo">
+                </a>
+                <ul class="menu">
+                    <li class="hidden-menu">
+                        <a class="alternative" href="https://supercoinsy.pl/">Sklep</a>
+                    </li>
+                    <li>
+                        <a class="active" href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <div class="dropdown-small">
+                            <button id="burger" class="hamburger hamburger--emphatic js-hamburger" type="button" onclick="showMenu()">
+                                <span class="hamburger-box">
+                                    <span class="hamburger-inner"></span>
+                                </span>
+                            </button>
+                            <div id="myDropdown" class="dropdown-content-small">
+                                <a href="https://supercoinsy.pl/">Sklep</a>
+                                <a href="kontakt.html">Kontakt</a>
+                                <a href="https://cp.oiq.pl:2096/">Webmail</a>
+                                <a href="https://cp.oiq.pl/poczta/">RainLoop</a>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="hidden-menu">
+                        <a href="kontakt.html" class="no-active">Kontakt</a>
+                    </li>
+                    <li>
+                    <li class="space-left dropdown">
+                        <a href="#" class="no-active">Logowanie</a>
+                        <ul class="dropdown-content">
+                            <li>
+                                <a href="https://cp.oiq.pl:2096/" class="alternative addwidth" target="_blank">
+                                    Webmail  
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://cp.oiq.pl/poczta/" class="alternative addwidth" target="_blank">
+                                    RainLoop
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div class="article">
+                <img src="images/textbg.png" alt="" class="article-background-widescreen">
+                <img src="images/bg.jpg" alt="" class="article-background-smallscreen">
+                <div class="text-conteiner-home">
+                    <h2>
+                        <span class="block padding-bottom font-size-22">Najlepsze ceny na rynku!</span> Jesteś zainteresowany<br>
+                        <span class="block padding-bottom">kupnem detalicznym?</span> <span class="">Zapraszamy do kontaktu.</span>
+                    </h2>
+                    <h1>
+                        <span class="color-blue margin-right-50 block">NAJPEWNIEJ </span><span class="color-orange margin-left-0">NAJTANIEJ</span><br>
+                        <span class="color-blue">NAJBEZPIECZNIEJ</span>
+                    </h1>
+                </div>
+            </div>
+            <div class="footer">
+                <p>
+                    <a class="footer-link" href="http://play4games.pl">www.<span class="bold">play4games</span>.pl</a>
+                </p>
+                <p class="footer-paragraph margin-right-200">
+                    Copyright © 2017 Play4Fun. All Rights Reserved.
+                </p>
+                <p class="footer-paragraph">
+                    Wykonianie: <span class="bold">Mateusz Czekała</span><br>
+                    Projekt graficzny: <span class="bold">nevStudio</span>
+                </p>
+            </div>
+        </div>
+        <script src="js/menu.js" async></script>
+        <script src="js/hamburgers.js" async></script>
+    </body>
+</html>
